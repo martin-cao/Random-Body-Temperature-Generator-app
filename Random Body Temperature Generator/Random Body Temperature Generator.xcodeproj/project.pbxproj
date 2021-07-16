@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D52B227E26A1826C00A13213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B227D26A1826C00A13213 /* AppDelegate.swift */; };
+		D52B228026A1826C00A13213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B227F26A1826C00A13213 /* SceneDelegate.swift */; };
+		D52B228226A1826C00A13213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B228126A1826C00A13213 /* ViewController.swift */; };
+		D52B228526A1826C00A13213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52B228326A1826C00A13213 /* Main.storyboard */; };
+		D52B228726A1826E00A13213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52B228626A1826E00A13213 /* Assets.xcassets */; };
+		D52B228A26A1826E00A13213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52B228826A1826E00A13213 /* LaunchScreen.storyboard */; };
+		D52B229526A1826E00A13213 /* Random_Body_Temperature_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B229426A1826E00A13213 /* Random_Body_Temperature_GeneratorTests.swift */; };
+		D52B22A026A1826E00A13213 /* Random_Body_Temperature_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B229F26A1826E00A13213 /* Random_Body_Temperature_GeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D52B229126A1826E00A13213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52B227226A1826B00A13213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52B227926A1826C00A13213;
+			remoteInfo = "Random Body Temperature Generator";
+		};
+		D52B229C26A1826E00A13213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52B227226A1826B00A13213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52B227926A1826C00A13213;
+			remoteInfo = "Random Body Temperature Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D52B227A26A1826C00A13213 /* Random Body Temperature Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Body Temperature Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52B227D26A1826C00A13213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D52B227F26A1826C00A13213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D52B228126A1826C00A13213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D52B228426A1826C00A13213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D52B228626A1826E00A13213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52B228926A1826E00A13213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D52B228B26A1826E00A13213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52B229026A1826E00A13213 /* Random Body Temperature GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random Body Temperature GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52B229426A1826E00A13213 /* Random_Body_Temperature_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Body_Temperature_GeneratorTests.swift; sourceTree = "<group>"; };
+		D52B229626A1826E00A13213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52B229B26A1826E00A13213 /* Random Body Temperature GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random Body Temperature GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52B229F26A1826E00A13213 /* Random_Body_Temperature_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Body_Temperature_GeneratorUITests.swift; sourceTree = "<group>"; };
+		D52B22A126A1826E00A13213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52B227726A1826C00A13213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B228D26A1826E00A13213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B229826A1826E00A13213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D52B227126A1826B00A13213 = {
+			isa = PBXGroup;
+			children = (
+				D52B227C26A1826C00A13213 /* Random Body Temperature Generator */,
+				D52B229326A1826E00A13213 /* Random Body Temperature GeneratorTests */,
+				D52B229E26A1826E00A13213 /* Random Body Temperature GeneratorUITests */,
+				D52B227B26A1826C00A13213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D52B227B26A1826C00A13213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52B227A26A1826C00A13213 /* Random Body Temperature Generator.app */,
+				D52B229026A1826E00A13213 /* Random Body Temperature GeneratorTests.xctest */,
+				D52B229B26A1826E00A13213 /* Random Body Temperature GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52B227C26A1826C00A13213 /* Random Body Temperature Generator */ = {
+			isa = PBXGroup;
+			children = (
+				D52B227D26A1826C00A13213 /* AppDelegate.swift */,
+				D52B227F26A1826C00A13213 /* SceneDelegate.swift */,
+				D52B228126A1826C00A13213 /* ViewController.swift */,
+				D52B228326A1826C00A13213 /* Main.storyboard */,
+				D52B228626A1826E00A13213 /* Assets.xcassets */,
+				D52B228826A1826E00A13213 /* LaunchScreen.storyboard */,
+				D52B228B26A1826E00A13213 /* Info.plist */,
+			);
+			path = "Random Body Temperature Generator";
+			sourceTree = "<group>";
+		};
+		D52B229326A1826E00A13213 /* Random Body Temperature GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D52B229426A1826E00A13213 /* Random_Body_Temperature_GeneratorTests.swift */,
+				D52B229626A1826E00A13213 /* Info.plist */,
+			);
+			path = "Random Body Temperature GeneratorTests";
+			sourceTree = "<group>";
+		};
+		D52B229E26A1826E00A13213 /* Random Body Temperature GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D52B229F26A1826E00A13213 /* Random_Body_Temperature_GeneratorUITests.swift */,
+				D52B22A126A1826E00A13213 /* Info.plist */,
+			);
+			path = "Random Body Temperature GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52B227926A1826C00A13213 /* Random Body Temperature Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52B22A426A1826E00A13213 /* Build configuration list for PBXNativeTarget "Random Body Temperature Generator" */;
+			buildPhases = (
+				D52B227626A1826C00A13213 /* Sources */,
+				D52B227726A1826C00A13213 /* Frameworks */,
+				D52B227826A1826C00A13213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Random Body Temperature Generator";
+			productName = "Random Body Temperature Generator";
+			productReference = D52B227A26A1826C00A13213 /* Random Body Temperature Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D52B228F26A1826E00A13213 /* Random Body Temperature GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52B22A726A1826E00A13213 /* Build configuration list for PBXNativeTarget "Random Body Temperature GeneratorTests" */;
+			buildPhases = (
+				D52B228C26A1826E00A13213 /* Sources */,
+				D52B228D26A1826E00A13213 /* Frameworks */,
+				D52B228E26A1826E00A13213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52B229226A1826E00A13213 /* PBXTargetDependency */,
+			);
+			name = "Random Body Temperature GeneratorTests";
+			productName = "Random Body Temperature GeneratorTests";
+			productReference = D52B229026A1826E00A13213 /* Random Body Temperature GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D52B229A26A1826E00A13213 /* Random Body Temperature GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52B22AA26A1826E00A13213 /* Build configuration list for PBXNativeTarget "Random Body Temperature GeneratorUITests" */;
+			buildPhases = (
+				D52B229726A1826E00A13213 /* Sources */,
+				D52B229826A1826E00A13213 /* Frameworks */,
+				D52B229926A1826E00A13213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52B229D26A1826E00A13213 /* PBXTargetDependency */,
+			);
+			name = "Random Body Temperature GeneratorUITests";
+			productName = "Random Body Temperature GeneratorUITests";
+			productReference = D52B229B26A1826E00A13213 /* Random Body Temperature GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52B227226A1826B00A13213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D52B227926A1826C00A13213 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D52B228F26A1826E00A13213 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D52B227926A1826C00A13213;
+					};
+					D52B229A26A1826E00A13213 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D52B227926A1826C00A13213;
+					};
+				};
+			};
+			buildConfigurationList = D52B227526A1826B00A13213 /* Build configuration list for PBXProject "Random Body Temperature Generator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52B227126A1826B00A13213;
+			productRefGroup = D52B227B26A1826C00A13213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52B227926A1826C00A13213 /* Random Body Temperature Generator */,
+				D52B228F26A1826E00A13213 /* Random Body Temperature GeneratorTests */,
+				D52B229A26A1826E00A13213 /* Random Body Temperature GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52B227826A1826C00A13213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52B228A26A1826E00A13213 /* LaunchScreen.storyboard in Resources */,
+				D52B228726A1826E00A13213 /* Assets.xcassets in Resources */,
+				D52B228526A1826C00A13213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B228E26A1826E00A13213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B229926A1826E00A13213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52B227626A1826C00A13213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52B228226A1826C00A13213 /* ViewController.swift in Sources */,
+				D52B227E26A1826C00A13213 /* AppDelegate.swift in Sources */,
+				D52B228026A1826C00A13213 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B228C26A1826E00A13213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52B229526A1826E00A13213 /* Random_Body_Temperature_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B229726A1826E00A13213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52B22A026A1826E00A13213 /* Random_Body_Temperature_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D52B229226A1826E00A13213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52B227926A1826C00A13213 /* Random Body Temperature Generator */;
+			targetProxy = D52B229126A1826E00A13213 /* PBXContainerItemProxy */;
+		};
+		D52B229D26A1826E00A13213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52B227926A1826C00A13213 /* Random Body Temperature Generator */;
+			targetProxy = D52B229C26A1826E00A13213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D52B228326A1826C00A13213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52B228426A1826C00A13213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D52B228826A1826E00A13213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52B228926A1826E00A13213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D52B22A226A1826E00A13213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D52B22A326A1826E00A13213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D52B22A526A1826E00A13213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PH979AJW;
+				INFOPLIST_FILE = "Random Body Temperature Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.weblogcomm.Random-Body-Temperature-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D52B22A626A1826E00A13213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PH979AJW;
+				INFOPLIST_FILE = "Random Body Temperature Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.weblogcomm.Random-Body-Temperature-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D52B22A826A1826E00A13213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PH979AJW;
+				INFOPLIST_FILE = "Random Body Temperature GeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.weblogcomm.Random-Body-Temperature-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Random Body Temperature Generator.app/Random Body Temperature Generator";
+			};
+			name = Debug;
+		};
+		D52B22A926A1826E00A13213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PH979AJW;
+				INFOPLIST_FILE = "Random Body Temperature GeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.weblogcomm.Random-Body-Temperature-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Random Body Temperature Generator.app/Random Body Temperature Generator";
+			};
+			name = Release;
+		};
+		D52B22AB26A1826E00A13213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PH979AJW;
+				INFOPLIST_FILE = "Random Body Temperature GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.weblogcomm.Random-Body-Temperature-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Random Body Temperature Generator";
+			};
+			name = Debug;
+		};
+		D52B22AC26A1826E00A13213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35PH979AJW;
+				INFOPLIST_FILE = "Random Body Temperature GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.weblogcomm.Random-Body-Temperature-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Random Body Temperature Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52B227526A1826B00A13213 /* Build configuration list for PBXProject "Random Body Temperature Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52B22A226A1826E00A13213 /* Debug */,
+				D52B22A326A1826E00A13213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52B22A426A1826E00A13213 /* Build configuration list for PBXNativeTarget "Random Body Temperature Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52B22A526A1826E00A13213 /* Debug */,
+				D52B22A626A1826E00A13213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52B22A726A1826E00A13213 /* Build configuration list for PBXNativeTarget "Random Body Temperature GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52B22A826A1826E00A13213 /* Debug */,
+				D52B22A926A1826E00A13213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52B22AA26A1826E00A13213 /* Build configuration list for PBXNativeTarget "Random Body Temperature GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52B22AB26A1826E00A13213 /* Debug */,
+				D52B22AC26A1826E00A13213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52B227226A1826B00A13213 /* Project object */;
+}
